@@ -23,4 +23,4 @@ function readInt8(buffer) {
 	return sign + (0x100000000 * high + low) + ('' + (10000 + trail)).slice(1);
 }
 
-module.exports = readInt8;
+export default readInt8;

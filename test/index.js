@@ -1,8 +1,8 @@
 'use strict';
 
-var assert = require('assert');
+import assert from 'assert';
 
-var readInt8 = require('../');
+import readInt8 from '../index.js';
 
 var bufferFrom = Buffer.from || Buffer;
 
